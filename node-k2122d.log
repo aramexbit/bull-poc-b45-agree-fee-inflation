@@ -1,0 +1,16 @@
+Bull SDK WARNING: using http://127.0.0.1:3007 instead of https://www.bull.family. Only continue if you run this server yourself.
+[K-2122d deal(milestones,2) feeWei 0.05 ETH on EACH step] {"case":"K-2122d deal(milestones,2) feeWei 0.05 ETH on EACH step","sdkSent":true,"sdkThrew":"","agreementIds":["1","2"],"treasuryGainedEthWei":"100000000000000000","treasuryGainedEth":0.1,"exploited":true}
+[
+  {
+    "case": "K-2122d deal(milestones,2) feeWei 0.05 ETH on EACH step",
+    "sdkSent": true,
+    "sdkThrew": "",
+    "agreementIds": [
+      "1",
+      "2"
+    ],
+    "treasuryGainedEthWei": "100000000000000000",
+    "treasuryGainedEth": 0.1,
+    "exploited": true
+  }
+]

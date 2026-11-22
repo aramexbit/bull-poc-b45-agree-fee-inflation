@@ -1,0 +1,30 @@
+=== forge: chain/test/Round26A.t.sol ===
+Compiling 22 files with Solc 0.8.24
+Solc 0.8.24 finished in 8.01s
+Compiler run successful!
+
+Ran 6 tests for test/Round26A.t.sol:Round26ATest
+[PASS] testK2122a_FeeInflatedToCap() (gas: 608102)
+[PASS] testK2122b_ValueWithoutFee() (gas: 148716)
+[PASS] testK2122c_EthAgreementInflatedValue() (gas: 501087)
+[PASS] testK2122d_ControlZeroFee() (gas: 368468)
+[PASS] testK2133a_StrangerCannotAttest() (gas: 435789)
+[PASS] testK2133b_ArbiterWrongIndexReverts() (gas: 433354)
+Suite result: ok. 6 passed; 0 failed; 0 skipped; finished in 109.89ms (49.57ms CPU time)
+
+Ran 1 test suite in 133.94ms (109.89ms CPU time): 6 tests passed, 0 failed, 0 skipped (6 total tests)
+=== node: run-sdk-fee.mjs k2122 k2122c k2122d ===
+=== MODE k2122 ===
+node k2122 exit=0
+=== MODE k2122c ===
+node k2122c exit=0
+=== MODE k2122d ===
+node k2122d exit=0
+=== SUMMARY ===
+[K-2122 agree() feeWei inflated to 0.05 ETH cap] {"case":"K-2122 agree() feeWei inflated to 0.05 ETH cap","sdkSent":true,"sdkThrew":"","agreementId":"1","treasuryGainedEthWei":"50000000000000000","treasuryGainedEth":0.05,"payerEthSpentWei":"50631328896148788","arbiterAttested":true,"releasedAfterAttest":true,"payeeGainedUsdg":"500","exploited":true,"controlClean":false}
+[
+[K-2122c CONTROL agree() honest fee 0] {"case":"K-2122c CONTROL agree() honest fee 0","sdkSent":true,"sdkThrew":"","agreementId":"1","treasuryGainedEthWei":"0","treasuryGainedEth":0,"payerEthSpentWei":"573286856807172","arbiterAttested":true,"releasedAfterAttest":true,"payeeGainedUsdg":"500","exploited":false,"controlClean":true}
+[
+[K-2122d deal(milestones,2) feeWei 0.05 ETH on EACH step] {"case":"K-2122d deal(milestones,2) feeWei 0.05 ETH on EACH step","sdkSent":true,"sdkThrew":"","agreementIds":["1","2"],"treasuryGainedEthWei":"100000000000000000","treasuryGainedEth":0.1,"exploited":true}
+[
+B-45 reproduced: agree()/deal() never verify feeWei; treasury takes 0.05 ETH per step (forge 6/6, node 3/3)

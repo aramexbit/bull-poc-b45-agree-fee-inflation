@@ -1,0 +1,21 @@
+{
+  "mode": "k2122",
+  "sdk": "f450d44df1812a6b9254c7b8cbac8aab89e94301cb86727f439643dfad47efae",
+  "agreement": "v4.1-0x7AB58fAAe65eFCF0037635382cAA546EaC233DA6",
+  "results": [
+    {
+      "case": "K-2122 agree() feeWei inflated to 0.05 ETH cap",
+      "sdkSent": true,
+      "sdkThrew": "",
+      "agreementId": "1",
+      "treasuryGainedEthWei": "50000000000000000",
+      "treasuryGainedEth": 0.05,
+      "payerEthSpentWei": "50631328896148788",
+      "arbiterAttested": true,
+      "releasedAfterAttest": true,
+      "payeeGainedUsdg": "500",
+      "exploited": true,
+      "controlClean": false
+    }
+  ]
+}

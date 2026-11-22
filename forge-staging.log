@@ -1,0 +1,12 @@
+No files changed, compilation skipped
+
+Ran 6 tests for test/Round26A.t.sol:Round26ATest
+[PASS] testK2122a_FeeInflatedToCap() (gas: 608102)
+[PASS] testK2122b_ValueWithoutFee() (gas: 148716)
+[PASS] testK2122c_EthAgreementInflatedValue() (gas: 501087)
+[PASS] testK2122d_ControlZeroFee() (gas: 368468)
+[PASS] testK2133a_StrangerCannotAttest() (gas: 435789)
+[PASS] testK2133b_ArbiterWrongIndexReverts() (gas: 433354)
+Suite result: ok. 6 passed; 0 failed; 0 skipped; finished in 22.97ms (3.32ms CPU time)
+
+Ran 1 test suite in 23.47ms (22.97ms CPU time): 6 tests passed, 0 failed, 0 skipped (6 total tests)

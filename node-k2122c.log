@@ -1,0 +1,18 @@
+Bull SDK WARNING: using http://127.0.0.1:3007 instead of https://www.bull.family. Only continue if you run this server yourself.
+[K-2122c CONTROL agree() honest fee 0] {"case":"K-2122c CONTROL agree() honest fee 0","sdkSent":true,"sdkThrew":"","agreementId":"1","treasuryGainedEthWei":"0","treasuryGainedEth":0,"payerEthSpentWei":"573286856807172","arbiterAttested":true,"releasedAfterAttest":true,"payeeGainedUsdg":"500","exploited":false,"controlClean":true}
+[
+  {
+    "case": "K-2122c CONTROL agree() honest fee 0",
+    "sdkSent": true,
+    "sdkThrew": "",
+    "agreementId": "1",
+    "treasuryGainedEthWei": "0",
+    "treasuryGainedEth": 0,
+    "payerEthSpentWei": "573286856807172",
+    "arbiterAttested": true,
+    "releasedAfterAttest": true,
+    "payeeGainedUsdg": "500",
+    "exploited": false,
+    "controlClean": true
+  }
+]

@@ -1,0 +1,18 @@
+Bull SDK WARNING: using http://127.0.0.1:3007 instead of https://www.bull.family. Only continue if you run this server yourself.
+[K-2122 agree() feeWei inflated to 0.05 ETH cap] {"case":"K-2122 agree() feeWei inflated to 0.05 ETH cap","sdkSent":true,"sdkThrew":"","agreementId":"1","treasuryGainedEthWei":"50000000000000000","treasuryGainedEth":0.05,"payerEthSpentWei":"50631328896148788","arbiterAttested":true,"releasedAfterAttest":true,"payeeGainedUsdg":"500","exploited":true,"controlClean":false}
+[
+  {
+    "case": "K-2122 agree() feeWei inflated to 0.05 ETH cap",
+    "sdkSent": true,
+    "sdkThrew": "",
+    "agreementId": "1",
+    "treasuryGainedEthWei": "50000000000000000",
+    "treasuryGainedEth": 0.05,
+    "payerEthSpentWei": "50631328896148788",
+    "arbiterAttested": true,
+    "releasedAfterAttest": true,
+    "payeeGainedUsdg": "500",
+    "exploited": true,
+    "controlClean": false
+  }
+]

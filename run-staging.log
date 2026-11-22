@@ -1,0 +1,13 @@
+=== MODE k2122 ===
+node k2122 exit=0
+=== MODE k2122c ===
+node k2122c exit=0
+=== MODE k2122d ===
+node k2122d exit=0
+=== SUMMARY ===
+[K-2122 agree() feeWei inflated to 0.05 ETH cap] {"case":"K-2122 agree() feeWei inflated to 0.05 ETH cap","sdkSent":true,"sdkThrew":"","agreementId":"1","treasuryGainedEthWei":"50000000000000000","treasuryGainedEth":0.05,"payerEthSpentWei":"50631328896148788","arbiterAttested":true,"releasedAfterAttest":true,"payeeGainedUsdg":"500","exploited":true,"controlClean":false}
+[
+[K-2122c CONTROL agree() honest fee 0] {"case":"K-2122c CONTROL agree() honest fee 0","sdkSent":true,"sdkThrew":"","agreementId":"1","treasuryGainedEthWei":"0","treasuryGainedEth":0,"payerEthSpentWei":"573286856807172","arbiterAttested":true,"releasedAfterAttest":true,"payeeGainedUsdg":"500","exploited":false,"controlClean":true}
+[
+[K-2122d deal(milestones,2) feeWei 0.05 ETH on EACH step] {"case":"K-2122d deal(milestones,2) feeWei 0.05 ETH on EACH step","sdkSent":true,"sdkThrew":"","agreementIds":["1","2"],"treasuryGainedEthWei":"100000000000000000","treasuryGainedEth":0.1,"exploited":true}
+[

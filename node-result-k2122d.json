@@ -1,0 +1,19 @@
+{
+  "mode": "k2122d",
+  "sdk": "f450d44df1812a6b9254c7b8cbac8aab89e94301cb86727f439643dfad47efae",
+  "agreement": "v4.1-0x7AB58fAAe65eFCF0037635382cAA546EaC233DA6",
+  "results": [
+    {
+      "case": "K-2122d deal(milestones,2) feeWei 0.05 ETH on EACH step",
+      "sdkSent": true,
+      "sdkThrew": "",
+      "agreementIds": [
+        "1",
+        "2"
+      ],
+      "treasuryGainedEthWei": "100000000000000000",
+      "treasuryGainedEth": 0.1,
+      "exploited": true
+    }
+  ]
+}

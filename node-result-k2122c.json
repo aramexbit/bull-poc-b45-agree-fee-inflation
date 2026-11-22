@@ -1,0 +1,21 @@
+{
+  "mode": "k2122c",
+  "sdk": "f450d44df1812a6b9254c7b8cbac8aab89e94301cb86727f439643dfad47efae",
+  "agreement": "v4.1-0x7AB58fAAe65eFCF0037635382cAA546EaC233DA6",
+  "results": [
+    {
+      "case": "K-2122c CONTROL agree() honest fee 0",
+      "sdkSent": true,
+      "sdkThrew": "",
+      "agreementId": "1",
+      "treasuryGainedEthWei": "0",
+      "treasuryGainedEth": 0,
+      "payerEthSpentWei": "573286856807172",
+      "arbiterAttested": true,
+      "releasedAfterAttest": true,
+      "payeeGainedUsdg": "500",
+      "exploited": false,
+      "controlClean": true
+    }
+  ]
+}
